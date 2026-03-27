@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>垃圾公司查询 - 找工作避雷指南</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>垃圾公司查询</h1>
+        <p>为找工作的人提供真实的公司评价，帮助你避开职场陷阱</p>
+    </header>
+    
+    <main>
+        <section class="search-section">
+            <div class="container">
+                <h2>查询公司</h2>
+                <div class="search-box">
+                    <input type="text" id="company-name" placeholder="输入公司名称">
+                    <button id="search-btn">搜索</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="results-section">
+            <div class="container">
+                <h2>搜索结果</h2>
+                <div id="results" class="results-list">
+                    <!-- 搜索结果将在这里显示 -->
+                </div>
+            </div>
+        </section>
+        
+        <section class="submit-section">
+            <div class="container">
+                <h2>提交垃圾公司信息</h2>
+                <form id="submit-form">
+                    <div class="form-group">
+                        <label for="submit-company">公司名称</label>
+                        <input type="text" id="submit-company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="submit-reason">避雷原因</label>
+                        <textarea id="submit-reason" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="submit-contact">联系方式（选填）</label>
+                        <input type="text" id="submit-contact" placeholder="邮箱或手机号">
+                    </div>
+                    <button type="submit" id="submit-btn">提交</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© 2026 垃圾公司查询 - 找工作避雷指南</p>
+            <p>本网站仅提供参考，信息来源于用户提交，请谨慎判断</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
